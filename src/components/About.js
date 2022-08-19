@@ -4,17 +4,17 @@ export default function About() {
     return (
         <section id='about'>
             <div>
-                <div className="row" style={{ height: "550px" }}>
-                    <div className='col-4'>
-                        <h1 style={{ position: 'absolute', fontSize: '150px', color: '#1ED0BD', zIndex: 1 }}>CONNECT<br /> TECHNOLOGY</h1>
+                <div className="row posionit-relative">
+                    <div className='col-3 m-2'>
+                        <h1 style={{position: 'relative', fontSize: '10rem', color: '#1ED0BD', zIndex: 1}}>CONNECT<br /> TECHNOLOGY</h1>
                     </div>
-                    <div className='col' >
-                        <Image src="/banner.png" width={1278} height={688} />
+                    <div className='col' style={{position: 'relative', height: '65rem', top:'4rem', left:'1rem'}}>
+                        <Image src="/banner.png" layout='fill' objectFit='contain' />
                     </div>
                 </div>
 
                 <div className="row">
-                    <div className='col-4 d-flex justify-content-center'>
+                    <div className='col-4 d-flex justify-content-center' >
                         <Image src="/art_01.png" width={42.92} height={265.71} />
                     </div>
 

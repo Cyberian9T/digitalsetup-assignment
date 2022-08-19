@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Career() {
     return (
-        <section id='career'>
+        <section id='career' className="m-5">
             <div>
                 <h1>
                 <span style={{ color: '#1ED0BD'}}>jobs</span> st DSU

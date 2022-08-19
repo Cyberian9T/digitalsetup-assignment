@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Projects() {
     return (
-        <section id='projects'>
+        <section id='projects' className="m-5">
             <div>
                 <div className="d-flex justify-content-center m-5">
                     <h1>our <span style={{ color: '#1ED0BD'}}>projects</span></h1>

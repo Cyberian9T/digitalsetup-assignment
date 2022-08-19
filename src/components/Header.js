@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="m-3">
+        <header className="sticky-top p-2" style={{ background: '#ffffff'}}>
             <div className="row">
-                <div className="col">
+                <div className="col-2">
                     <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
                 </div>
                 <div className="col d-flex justify-content-between">
@@ -21,7 +21,7 @@ export default function Header() {
                         );
                     })}
                 </div>
-                <div className="col">
+                <div className="col-2">
                     <div className="dropdown d-flex flex-row-reverse">
                         <button
                             className="btn dropdown-toggle rounded-pill"

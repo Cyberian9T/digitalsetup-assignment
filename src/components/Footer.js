@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer>
-            <section id="contact">
+            <section id="contact" className="m-5">
                 <div className='row'>
                     <div className='col'>
                         <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />

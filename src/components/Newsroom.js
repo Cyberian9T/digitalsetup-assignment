@@ -14,7 +14,7 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2
+        items: 1
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -24,7 +24,7 @@ const responsive = {
 
 export default function Newsroom() {
     return (
-        <section id='newsroom'>
+        <section id='newsroom' className="m-5">
             <div className="row">
                 <div className="col">
                     <h1>our<br /> <span style={{ color: '#1ED0BD' }}>newsroom</span></h1>

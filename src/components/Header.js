@@ -13,9 +13,9 @@ export default function Header() {
                 <div className="col d-flex justify-content-between">
                     {navLinks.map((link, index) => {
                         return (
-                            <div className="d-flex justify-content-evenly m-3">
-                                <Link href={link.path} >
-                                    <a key={index}>{link.name}</a>
+                            <div key={index} className="d-flex justify-content-evenly m-3">
+                                <Link  href={link.path} >
+                                    <a>{link.name}</a>
                                 </Link>
                             </div>
                         );

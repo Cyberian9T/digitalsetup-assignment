@@ -28,7 +28,7 @@ export default function KBTG_Life() {
             <Carousel responsive={responsive} arrows={true} infinite >
                 <div className="row">
                     <div className='col'>
-                        <Image src="/Mask group.png" width={924} height={580} />
+                        <Image src="/Mask group.png" width={924} height={580} alt="#"/>
                     </div>
                     <div className='col'>
                         <div className="d-flex justify-content m-5">
@@ -46,6 +46,9 @@ export default function KBTG_Life() {
                     </div>
                 </div>
             </Carousel>
+
+            {/* vvvvv is not done vvvvv */}
+
             {/* <div className="row">
                 <div className='col'>
 

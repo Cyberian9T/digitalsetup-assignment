@@ -9,7 +9,7 @@ export default function Projects() {
                 </div>
                 <div className="d-flex justify-content-evenly">
                     <div className="card" style={{ width: "18rem" }} >
-                        <img src="/Sansiri.png" className="card-img-top" alt="..." />
+                        <Image src="/Sansiri.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Sansiri</h5>
                             <h6 className="card-subtitle mb-2" style={{ color: '#1ED0BD'}}>Digital Token for Everyone</h6>
@@ -17,7 +17,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className="card" style={{ width: "18rem" }} >
-                        <img src="/Bentagro.png" className="card-img-top" alt="..." />
+                        <Image src="/Bentagro.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Betagro</h5>
                             <h6 className="card-subtitle mb-2" style={{ color: '#1ED0BD'}}>Digital Token for Everyone</h6>
@@ -25,7 +25,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className="card" style={{ width: "18rem" }} >
-                        <img src="/Mercedes Benz.png" className="card-img-top" alt="..." />
+                        <Image src="/Mercedes Benz.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Mercedes Benz</h5>
                             <h6 className="card-subtitle mb-2" style={{ color: '#1ED0BD'}}>Digital Token for Everyone</h6>

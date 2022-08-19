@@ -51,7 +51,7 @@ export default function Career() {
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[Samyan] KX - Software Engineer, Backend</h5>
                                 <h6 className="card-subtitle mb-2">Samyan, Bangkok</h6>
-                                <p className="card-text" style={{ color: '#61706F'}}>We're looking for a passionate, self-motivated, team player Backend ....</p>
+                                <p className="card-text" style={{ color: '#61706F'}}>We&apos;re looking for a passionate, self-motivated, team player Backend ....</p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function Career() {
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[Samyan] KX - Software Engineer, Frontend</h5>
                                 <h6 className="card-subtitle mb-2">Samyan, Bangkok</h6>
-                                <p className="card-text" style={{ color: '#61706F'}}>We're looking for a passionate, self-motivated, team player Frontend ....</p>
+                                <p className="card-text" style={{ color: '#61706F'}}>We&apos;re looking for a passionate, self-motivated, team player Frontend ....</p>
                             </div>
                         </div>
                     </div>

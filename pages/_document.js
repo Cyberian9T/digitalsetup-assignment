@@ -10,7 +10,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link
-                        href='https://fonts.googleapis.com/css?family=Noto Sans'
+                        href='https://fonts.googleapis.com/css?family=Noto Sans&display=optional'
                         rel="stylesheet"
                     />
                 </Head>

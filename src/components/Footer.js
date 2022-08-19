@@ -15,9 +15,9 @@ export default function Footer() {
                         <div className="row row-cols-2" >
                             {navLinks.map((link, index) => {
                                 return (
-                                    <div className="col">
+                                    <div key={index} className="col">
                                         <Link href={link.path} >
-                                            <a key={index}>{link.name}</a>
+                                            <a>{link.name}</a>
                                         </Link>
                                     </div>
                                 );

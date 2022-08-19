@@ -9,7 +9,7 @@ export default function Career() {
                 </h1>
                 <div className="row">
                     <div className='col'>
-                        <div className="card mb-3" style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>Business Analyst</h5>
                                 <h6 className="card-subtitle mb-2">Muang Thong Thani, Nonthaburi</h6>
@@ -18,7 +18,7 @@ export default function Career() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="card mb-3" style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>Data Engineer</h5>
                                 <h6 className="card-subtitle mb-2">Muang Thong Thani, Nonthaburi</h6>
@@ -27,7 +27,7 @@ export default function Career() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="card mb-3" style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[KBTGVN] Function Lead/ Sr. Business Analyst</h5>
                                 <h6 className="card-subtitle mb-2">HCMC, Vietnam</h6>
@@ -38,7 +38,7 @@ export default function Career() {
                 </div>
                 <div className="row">
                     <div className='col'>
-                        <div className="card mb-3" style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[KBTGVN] Software Engineer</h5>
                                 <h6 className="card-subtitle mb-2">HCMC, Vietnam</h6>
@@ -47,7 +47,7 @@ export default function Career() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="card mb-3" style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[Samyan] KX - Software Engineer, Backend</h5>
                                 <h6 className="card-subtitle mb-2">Samyan, Bangkok</h6>
@@ -56,7 +56,7 @@ export default function Career() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="card " style={{ width: "408px", height: "208px" }}>
+                        <div className="card mb-2" style={{ width: "400px", height: "208px" }}>
                             <div className="card-body">
                                 <h5 className="card-title" style={{ color: '#1ED0BD'}}>[Samyan] KX - Software Engineer, Frontend</h5>
                                 <h6 className="card-subtitle mb-2">Samyan, Bangkok</h6>

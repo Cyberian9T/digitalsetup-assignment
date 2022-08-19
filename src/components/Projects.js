@@ -8,7 +8,7 @@ export default function Projects() {
                     <h1>our <span style={{ color: '#1ED0BD'}}>projects</span></h1>
                 </div>
                 <div className="d-flex justify-content-evenly">
-                    <div className="card" style={{ width: "18rem" }} >
+                    <div className="shadow card" style={{ width: "18rem" }} >
                         <Image src="/Sansiri.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Sansiri</h5>
@@ -16,7 +16,7 @@ export default function Projects() {
                             <p className="card-text">Kubix is established by KASIKORN X, a company under KBTG, to operate as an Initial Coin Offering (ICO) portal. Broadening the horizon beyond....</p>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }} >
+                    <div className="shadow card" style={{ width: "18rem" }} >
                         <Image src="/Bentagro.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Betagro</h5>
@@ -24,7 +24,7 @@ export default function Projects() {
                             <p className="card-text">Kubix is established by KASIKORN X, a company under KBTG, to operate as an Initial Coin Offering (ICO) portal. Broadening the horizon beyond....</p>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }} >
+                    <div className="shadow card" style={{ width: "18rem" }} >
                         <Image src="/Mercedes Benz.png" className="card-img-top" alt="..." width={498} height={334}/>
                         <div className="card-body">
                             <h5 className="card-title">Mercedes Benz</h5>

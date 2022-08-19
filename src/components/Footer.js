@@ -27,16 +27,16 @@ export default function Footer() {
                     <div className='col'>
                         <p>Follow Us</p>
                         <div>
-                            <button type="button" className="btn btn-light rounded-circle">
+                            <button type="button" className="shadow btn btn-light rounded-circle">
                                 <Image src="/facebook.png" alt="Logo" width={15} height={15} />
                             </button>
-                            <button type="button" className="btn btn-light rounded-circle">
+                            <button type="button" className="shadow btn btn-light rounded-circle">
                                 <Image src="/twitter.png" alt="Logo" width={15} height={15} />
                             </button>
-                            <button type="button" className="btn btn-light rounded-circle">
+                            <button type="button" className="shadow btn btn-light rounded-circle">
                                 <Image src="/linkedin.png" alt="Logo" width={15} height={15} />
                             </button>
-                            <button type="button" className="btn btn-light rounded-circle">
+                            <button type="button" className="shadow btn btn-light rounded-circle">
                                 <Image src="/youtube.png" alt="Logo" width={15} height={15} />
                             </button>
                         </div>

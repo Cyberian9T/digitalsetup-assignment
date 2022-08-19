@@ -7,6 +7,7 @@ import Projects from '../src/components/Projects';
 import Newsroom from '../src/components/Newsroom';
 import Career from '../src/components/Career';
 import KBTG_Life from '../src/components/KBTG_Life';
+import Footer from '../src/components/Footer';
 
 export default function Home() {
   return (
@@ -28,9 +29,7 @@ export default function Home() {
         <Career />
       </main>
 
-      <footer>
-
-      </footer>
+      <Footer />
 
     </div>
   )

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header>
+        <header className="m-3">
             <div className="row">
                 <div className="col">
                     <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
@@ -13,22 +13,23 @@ export default function Header() {
                 <div className="col d-flex justify-content-between">
                     {navLinks.map((link, index) => {
                         return (
-                            <p class="d-flex justify-content-evenly m-3">
+                            <div className="d-flex justify-content-evenly m-3">
                                 <Link href={link.path} >
                                     <a key={index}>{link.name}</a>
                                 </Link>
-                            </p>
+                            </div>
                         );
                     })}
                 </div>
                 <div className="col">
                     <div className="dropdown d-flex flex-row-reverse">
                         <button
-                            className="btn btn-primary dropdown-toggle rounded-pill"
+                            className="btn dropdown-toggle rounded-pill"
                             type="button"
                             data-bs-toggle="dropdown"
                             id="dropdownMenu"
                             aria-expanded="false"
+                            style={{ background: '#1ED0BD',color: '#ffffff'}}
                         >
                             En
                         </button>

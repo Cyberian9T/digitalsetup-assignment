@@ -18,7 +18,7 @@ export const navLinks = [
     },
     {
         name: <NavItem item="KBTG Life" />,
-        path: "#KBTG-life",
+        path: "#kbtg-life",
     },
     {
         name: <NavItem item="Contact" />,

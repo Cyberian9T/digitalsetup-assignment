@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about">
-      <div>
+      <div className="container">
         <div className="row posionit-relative">
           <div className="col-3 m-2">
             <h1 className="position-relative text-primary fs-160 z-1">

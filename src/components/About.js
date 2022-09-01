@@ -15,7 +15,6 @@ export default function About() {
             <div className="position-relative top-30 start-20">
               <Image
                 src="/banner.png"
-                objectFit="contain"
                 alt="banner"
                 width="1278" height="688"
               />

@@ -4,32 +4,26 @@ export default function About() {
   return (
     <section id="about">
       <div className="container">
-        <div className="row posionit-relative">
-          <div className="col-3 m-2">
+        <div className="row posionit-relative" style={{height: "60rem"}}>
+          <div className="col-3">
             <h1 className="position-relative text-primary fs-160 z-1">
               CONNECT
               <br /> TECHNOLOGY
             </h1>
           </div>
-          <div
-            className="col"
-            style={{
-              position: "relative",
-              height: "65rem",
-              top: "4rem",
-              left: "1rem",
-            }}
-          >
-            <Image
-              src="/banner.png"
-              layout="fill"
-              objectFit="contain"
-              alt="banner"
-            />
+          <div className="col">
+            <div className="position-relative top-30 start-20">
+              <Image
+                src="/banner.png"
+                objectFit="contain"
+                alt="banner"
+                width="1278" height="688"
+              />
+            </div>
           </div>
         </div>
 
-        <div className="row">
+        <div className="row posionit-relative mb-5">
           <div className="col-4 d-flex justify-content-center">
             <Image src="/art_01.png" width={42.92} height={265.71} alt="art" />
           </div>

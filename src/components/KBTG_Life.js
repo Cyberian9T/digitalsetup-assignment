@@ -25,31 +25,32 @@ const responsive = {
 export default function KBTG_Life() {
     return (
         <section id='kbtg-life'>
-            <Carousel responsive={responsive} arrows={true} infinite >
-                <div className="row">
-                    <div className='col'>
-                        <Image src="/Mask group.png" width={924} height={580} alt="#"/>
+            <div className="container">
+                <Carousel responsive={responsive} arrows={true} infinite >
+                    <div className="row">
+                        <div className='col'>
+                            <Image src="/Mask group.png" width={924} height={580} alt="#" />
+                        </div>
+                        <div className='col'>
+                            <div className="d-flex justify-content m-5">
+                                <h1><span style={{ color: '#1ED0BD' }}>DSU</span> LIFE</h1>
+                            </div>
+                            <div className="d-flex justify-content m-5">
+                                <p>
+                                    “Our innovativeness will transform us into  a prominent leader of the digital disruption age.”
+                                </p>
+                            </div>
+                            <div className="d-flex justify-content m-5">
+                                <p><span style={{ color: '#1ED0BD' }}> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div className='col'>
-                        <div className="d-flex justify-content m-5">
-                            <h1><span style={{ color: '#1ED0BD' }}>DSU</span> LIFE</h1>
-                        </div>
-                        <div className="d-flex justify-content m-5">
-                            <p>
-                                “Our innovativeness will transform us into  a prominent leader of the digital disruption age.”
-                            </p>
-                        </div>
-                        <div className="d-flex justify-content m-5">
-                            <p><span style={{ color: '#1ED0BD' }}> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
-                        </div>
+                </Carousel>
 
-                    </div>
-                </div>
-            </Carousel>
+                {/* vvvvv is not done vvvvv */}
 
-            {/* vvvvv is not done vvvvv */}
-
-            {/* <div className="row">
+                {/* <div className="row">
                 <div className='col'>
 
                 </div>
@@ -75,7 +76,7 @@ export default function KBTG_Life() {
                     </div>
                 </div>
             </div> */}
-
+            </div>
         </section>
     );
 }

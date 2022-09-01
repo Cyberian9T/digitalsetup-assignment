@@ -4,13 +4,13 @@ import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
+
+        breakpoint: { max: 4000, min: 2500 },
         items: 3
     },
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
+        breakpoint: { max: 2500, min: 1024 },
+        items: 2
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -24,40 +24,40 @@ const responsive = {
 
 export default function Newsroom() {
     return (
-        <section id='newsroom' >
-            <div style={{ backgroundColor: '#F7FCFC' }}>
-                <div className="row m-5" >
+        <section id='newsroom' className="p-5" style={{ backgroundColor: '#F7FCFC' }}>
+            <div className="container">
+                <div className="row" >
                     <div className="col">
                         <h1>our<br /> <span style={{ color: '#1ED0BD' }}>newsroom</span></h1>
                     </div>
-                    <div className="col" style={{ width: "70%" }}>
+                    <div className="col-8">
                         <Carousel responsive={responsive} infinite >
-                            <div className="card" style={{ width: "18rem" }} >
+                            <div className="card m-2">
                                 <Image src="/card 1.png" className="card-img-top" alt="..." width={498} height={334} />
                                 <div className="card-body">
-                                    <h5 className="card-title">we never cease to develop and innovate financialtechnologies on top.</h5>
+                                    <h6 className="card-title fw-bold">we never cease to develop and innovate financialtechnologies on top.</h6>
                                     <p className="card-text">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
-                            <div className="card" style={{ width: "18rem" }} >
+                            <div className="card m-2">
                                 <Image src="/card 2.png" className="card-img-top" alt="..." width={498} height={334} />
                                 <div className="card-body">
-                                    <h5 className="card-title">we never cease to develop and innovate financialtechnologies on top.</h5>
+                                    <h6 className="card-title fw-bold">we never cease to develop and innovate financialtechnologies on top.</h6>
                                     <p className="card-text">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
-                            <div className="card" style={{ width: "18rem" }} >
+                            <div className="card m-2">
                                 <Image src="/card 3.png" className="card-img-top" alt="..." width={498} height={334} />
                                 <div className="card-body">
-                                    <h5 className="card-title">we never cease to develop and innovate financialtechnologies on top.</h5>
+                                    <h6 className="card-title fw-bold">we never cease to develop and innovate financialtechnologies on top.</h6>
                                     <p className="card-text">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
                         </Carousel>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center" >
-                    <button type="button" className="btn btn-light rounded-pill m-5" style={{ background: '#1ED0BD', color: '#ffffff' }}>All News</button>
+                <div className="d-flex justify-content-center m-5" >
+                    <button type="button" className="btn btn-light rounded-pill" style={{ background: '#1ED0BD', color: '#ffffff' }}>All News</button>
                 </div>
             </div>
         </section>

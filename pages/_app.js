@@ -1,12 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/globals.css'
+import "../styles/bootstrap.scss";
+import "../styles/globals.scss";
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;

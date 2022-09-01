@@ -10,7 +10,7 @@ export default function Header() {
                 <div className="col-2">
                     <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
                 </div>
-                <div className="col d-flex justify-content-between">
+                <div className="col d-flex justify-content-center">
                     {navLinks.map((link, index) => {
                         return (
                             <div key={index} className="d-flex justify-content-evenly m-3">

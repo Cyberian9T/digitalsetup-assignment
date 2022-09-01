@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 export default function Career() {
     return (
-        <section id='career' style={{ backgroundColor: '#F7FCFC' }}>
+        <section id='career' className="p-5" style={{ backgroundColor: '#F7FCFC' }}>
             <div className="container">
-                <div className="m-5">
+                <div className="mt-5">
                     <h1>
                         <span style={{ color: '#1ED0BD' }} >jobs</span> st DSU
                     </h1>
-                    <div className="row">
-                        <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                    <div className="row mb-4">
+                        <div className='col m-2 '>
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'
@@ -23,7 +23,7 @@ export default function Career() {
                             </div>
                         </div>
                         <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'
@@ -36,7 +36,7 @@ export default function Career() {
                             </div>
                         </div>
                         <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'
@@ -49,9 +49,9 @@ export default function Career() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mb-4">
                         <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'
@@ -64,7 +64,7 @@ export default function Career() {
                             </div>
                         </div>
                         <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'
@@ -77,7 +77,7 @@ export default function Career() {
                             </div>
                         </div>
                         <div className='col m-2'>
-                            <div className="shadow card h-100" style={{
+                            <div className="card h-100" style={{
                                 background: 'rgba(247, 252, 252, 0.8)',
                                 boxShadow: '15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7)',
                                 borderRadius: '30px'

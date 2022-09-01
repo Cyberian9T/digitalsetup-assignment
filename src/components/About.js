@@ -24,11 +24,11 @@ export default function About() {
         </div>
 
         <div className="row posionit-relative mb-5">
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-3 d-flex">
             <Image src="/art_01.png" width={42.92} height={265.71} alt="art" />
           </div>
 
-          <div className="col">
+          <div className="col-9">
             <h2>connect for the better</h2>
             <p>
               At DSU, we never cease to develop and innovate financial

@@ -24,8 +24,8 @@ const responsive = {
 
 export default function KBTG_Life() {
     return (
-        <section id='kbtg-life'>
-            <div className="container">
+        <section id='kbtg-life' className="p-5">
+            <div className="container mt-5 mb-5">
                 <Carousel responsive={responsive} arrows={true} infinite >
                     <div className="row">
                         <div className='col'>

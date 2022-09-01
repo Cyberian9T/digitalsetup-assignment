@@ -25,7 +25,7 @@ const responsive = {
 export default function Newsroom() {
     return (
         <section id='newsroom' className="p-5" style={{ backgroundColor: '#F7FCFC' }}>
-            <div className="container">
+            <div className="container mt-5 mb-5">
                 <div className="row" >
                     <div className="col">
                         <h1>our<br /> <span style={{ color: '#1ED0BD' }}>newsroom</span></h1>
@@ -56,7 +56,7 @@ export default function Newsroom() {
                         </Carousel>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center m-5" >
+                <div className="d-flex justify-content-center mt-5" >
                     <button type="button" className="btn btn-light rounded-pill" style={{ background: '#1ED0BD', color: '#ffffff' }}>All News</button>
                 </div>
             </div>

@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Projects() {
     return (
-        <section id='projects' className="m-5">
-            <div className="container">
+        <section id='projects' className="p-5">
+            <div className="container mt-5 mb-5">
                 <div className="d-flex justify-content-center m-5">
                     <h1>our <span style={{ color: '#1ED0BD' }}>projects</span></h1>
                 </div>
@@ -45,7 +45,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center m-5" >
+                <div className="d-flex justify-content-center mt-5" >
                     <button type="button" className="btn btn-light rounded-pill" style={{ background: '#1ED0BD', color: '#ffffff' }}>All Project</button>
                 </div>
             </div>

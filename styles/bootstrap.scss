@@ -2,8 +2,11 @@
 @include bsBanner("");
 
 $enable-negative-margins: true;
+$enable-shadows: true;
 
-// $font-family-sans-serif: 'Noto Sans Thai', sans-serif;
+$box-shadow: 15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7);
+
+$font-family-sans-serif: 'Noto Sans Thai', sans-serif;
 
 $font-size-base: 1rem;
 
@@ -78,7 +81,6 @@ $display-font-sizes: (
   5: 3rem,
   6: 2.5rem
 );
-
 $cyan: #1ed0bd;
 $primary: $cyan;
 $secondary : #233a3a;

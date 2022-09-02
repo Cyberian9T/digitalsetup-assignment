@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" class="shadow">
       <div className="container">
-        <div className="row posionit-relative" >
+        <div className="row posionit-relative">
           <div className="col-3 mb-n9">
             <h1 className="position-relative text-primary fs-160 z-1">
               CONNECT
@@ -13,11 +13,7 @@ export default function About() {
           </div>
           <div className="col-9 offset-3">
             <div className="position-relative">
-              <Image
-                src="/banner.png"
-                alt="banner"
-                width="1278" height="688"
-              />
+              <img src="/banner.png" alt="banner" width="1278" height="688" />
             </div>
           </div>
         </div>
@@ -41,7 +37,7 @@ export default function About() {
               outside-the-box thinking, KBTG aims to transform into the best
               tech organization of Southeast Asia.
             </p>
-            <button  
+            <button
               type="button"
               className="btn btn-light rounded-pill"
               style={{ color: "#1ED0BD" }}

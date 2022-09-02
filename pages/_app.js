@@ -1,4 +1,5 @@
 import "../styles/bootstrap.scss";
+import "../styles/components/card.scss";
 import "../styles/globals.scss";
 import { useEffect } from "react";
 

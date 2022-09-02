@@ -1,31 +1,30 @@
-import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" class="shadow">
+    <section id="about" className="overflow-hidden">
       <div className="container">
         <div className="row posionit-relative">
-          <div className="col-3 mb-n9">
-            <h1 className="position-relative text-primary fs-160 z-1">
+          <div className="col-3 mb-n10">
+            <p className="position-relative text-primary fs-160 z-1">
               CONNECT
               <br /> TECHNOLOGY
-            </h1>
+            </p>
           </div>
           <div className="col-9 offset-3">
             <div className="position-relative">
-              <img src="/banner.png" alt="banner" width="1278" height="688" />
+              <img src="/banner.png" alt="banner"/>
             </div>
           </div>
         </div>
 
         <div className="row posionit-relative mb-5 mt-5">
           <div className="col-3 d-flex">
-            <Image src="/art_01.png" width={42.92} height={265.71} alt="art" />
+            <img src="/art_01.png" alt="art" />
           </div>
 
           <div className="col-9">
-            <h2>connect for the better</h2>
-            <p>
+            <p className="fs-60">connect for the better</p>
+            <p className="fs-18">
               At DSU, we never cease to develop and innovate financial
               technologies on top of our &quot;Customer First&quot; mindset, We
               are the driving force behind KBank&apos;s success as well as their
@@ -37,11 +36,7 @@ export default function About() {
               outside-the-box thinking, KBTG aims to transform into the best
               tech organization of Southeast Asia.
             </p>
-            <button
-              type="button"
-              className="btn btn-light rounded-pill"
-              style={{ color: "#1ED0BD" }}
-            >
+            <button className="btn rounded-pill text-primary">
               More stories
             </button>
           </div>

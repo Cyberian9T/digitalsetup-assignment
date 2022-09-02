@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export default function Career() {
   return (
-    <section id="career" className="p-5" style={{ backgroundColor: "#F7FCFC" }}>
+    <section id="career" className="p-5 overflow-hidden" style={{ backgroundColor: "#F7FCFC" }}>
       <div className="container">
         <div className="mt-5">
           <h1>
-            <span>jobs</span> st DSU
+            <span className="text-primary">jobs</span> st DSU
           </h1>
           <div className="row mb-4">
             <div className="col m-2 ">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title text-primary">Business Analyst</h5>
-                  <h6 className="card-subtitle">
+                  <p className="card-title text-primary fs-22">Business Analyst</p>
+                  <p className="card-subtitle fs-14">
                     Muang Thong Thani, Nonthaburi
-                  </h6>
-                  <p className="card-text">
+                  </p>
+                  <p className="card-text fs-16">
                     Through the robust training courses, closely coached by
                     expert mentors and rotating assignments which expose yours
                     to a broad
@@ -25,13 +25,13 @@ export default function Career() {
               </div>
             </div>
             <div className="col m-2">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title text-primary">Data Engineer</h5>
-                  <h6 className="card-subtitle">
+                  <p className="card-title text-primary fs-22">Data Engineer</p>
+                  <p className="card-subtitle fs-14">
                     Muang Thong Thani, Nonthaburi
-                  </h6>
-                  <p className="card-text">
+                  </p>
+                  <p className="card-text fs-16">
                     At KBTG, we build our own platforms as well as service
                     external well-known clients like PTTEP, LINE, GRAB and so on
                     with an Open Platform technology structure.
@@ -40,13 +40,13 @@ export default function Career() {
               </div>
             </div>
             <div className="col m-2">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title text-primary">
+                  <p className="card-title text-primary fs-22">
                     [KBTGVN] Function Lead/ Sr. Business Analyst
-                  </h5>
-                  <h6 className="card-subtitle">HCMC, Vietnam</h6>
-                  <p className="card-text">
+                  </p>
+                  <p className="card-subtitle fs-14">HCMC, Vietnam</p>
+                  <p className="card-text fs-16">
                     Functional Lead is the liaison between the business users
                     and technical team....
                   </p>
@@ -56,11 +56,11 @@ export default function Career() {
           </div>
           <div className="row mb-4">
             <div className="col m-2">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title">[KBTGVN] Software Engineer</h5>
-                  <h6 className="card-subtitle">HCMC, Vietnam</h6>
-                  <p className="card-text" style={{ color: "#61706F" }}>
+                  <p className="card-title text-primary fs-22">[KBTGVN] Software Engineer</p>
+                  <p className="card-subtitle fs-14">HCMC, Vietnam</p>
+                  <p className="card-text fs-16" style={{ color: "#61706F" }}>
                     At KBTG, we build our own platforms as well as service
                     external well-known clients like PTTOR, Facebook, LINE MAN,
                     GRAB, and many more with modernized ...
@@ -69,13 +69,13 @@ export default function Career() {
               </div>
             </div>
             <div className="col m-2">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title">
+                  <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Backend
-                  </h5>
-                  <h6 className="card-subtitle">Samyan, Bangkok</h6>
-                  <p className="card-text text-dark">
+                  </p>
+                  <p className="card-subtitle fs-14">Samyan, Bangkok</p>
+                  <p className="card-text fs-16 text-dark">
                     We&apos;re looking for a passionate, self-motivated, team
                     player Backend ....
                   </p>
@@ -83,13 +83,13 @@ export default function Career() {
               </div>
             </div>
             <div className="col m-2">
-              <div className="card h-100">
+              <div className="cardshadow h-100 border-0">
                 <div className="card-body p-3">
-                  <h5 className="card-title">
+                  <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Frontend
-                  </h5>
-                  <h6 className="card-subtitle">Samyan, Bangkok</h6>
-                  <p className="card-text" style={{ color: "#61706F" }}>
+                  </p>
+                  <p className="card-subtitle fs-14">Samyan, Bangkok</p>
+                  <p className="card-text fs-16 text-dark">
                     We&apos;re looking for a passionate, self-motivated, team
                     player Frontend ....
                   </p>

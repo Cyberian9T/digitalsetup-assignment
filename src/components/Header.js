@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="sticky-top p-2" style={{ background: '#ffffff'}}>
+        <header className="sticky-top p-2 overflow-hidden" style={{ background: '#ffffff'}}>
             <div className="row">
                 <div className="col-2">
                     <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
@@ -13,7 +13,7 @@ export default function Header() {
                 <div className="col d-flex justify-content-center">
                     {navLinks.map((link, index) => {
                         return (
-                            <div key={index} className="d-flex justify-content-evenly m-3">
+                            <div key={index} className="d-flex justify-content-evenly m-3 fs-16">
                                 <Link  href={link.path} >
                                     <a>{link.name}</a>
                                 </Link>
@@ -21,15 +21,14 @@ export default function Header() {
                         );
                     })}
                 </div>
-                <div className="col-2">
+                <div className="col-2 z-3">
                     <div className="dropdown d-flex flex-row-reverse">
                         <button
-                            className="btn dropdown-toggle rounded-pill"
+                            className="btn btn-primary dropdown-toggle rounded-pill text-light"
                             type="button"
                             data-bs-toggle="dropdown"
                             id="dropdownMenu"
                             aria-expanded="false"
-                            style={{ background: '#1ED0BD',color: '#ffffff'}}
                         >
                             En
                         </button>

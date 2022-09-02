@@ -21,10 +21,6 @@ export default function Home() {
       <Header />
       <main>
         <About />
-        <Newsroom />
-        <Projects />
-        <KBTG_Life />
-        <Career />
       </main>
       <Footer />
 

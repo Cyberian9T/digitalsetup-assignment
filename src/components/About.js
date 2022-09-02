@@ -4,15 +4,15 @@ export default function About() {
   return (
     <section id="about">
       <div className="container">
-        <div className="row posionit-relative" style={{height: "60rem"}}>
-          <div className="col-3">
+        <div className="row posionit-relative" >
+          <div className="col-3 mb-n9">
             <h1 className="position-relative text-primary fs-160 z-1">
               CONNECT
               <br /> TECHNOLOGY
             </h1>
           </div>
-          <div className="col">
-            <div className="position-relative top-30 start-20">
+          <div className="col-9 offset-3">
+            <div className="position-relative">
               <Image
                 src="/banner.png"
                 alt="banner"
@@ -22,7 +22,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="row posionit-relative mb-5">
+        <div className="row posionit-relative mb-5 mt-5">
           <div className="col-3 d-flex">
             <Image src="/art_01.png" width={42.92} height={265.71} alt="art" />
           </div>
@@ -41,7 +41,7 @@ export default function About() {
               outside-the-box thinking, KBTG aims to transform into the best
               tech organization of Southeast Asia.
             </p>
-            <button
+            <button  
               type="button"
               className="btn btn-light rounded-pill"
               style={{ color: "#1ED0BD" }}

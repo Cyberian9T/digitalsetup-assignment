@@ -24,7 +24,7 @@ export default function Header() {
                 <div className="col-2 z-3">
                     <div className="dropdown d-flex flex-row-reverse">
                         <button
-                            className="btn btn-primary dropdown-toggle rounded-pill text-light"
+                            className="btn btn-primary text-light dropdown-toggle rounded-pill"
                             type="button"
                             data-bs-toggle="dropdown"
                             id="dropdownMenu"

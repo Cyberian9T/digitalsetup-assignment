@@ -4,11 +4,11 @@ import 'react-multi-carousel/lib/styles.css';
 const responsive = {
     superLargeDesktop: {
 
-        breakpoint: { max: 4000, min: 2500 },
+        breakpoint: { max: 4000, min: 2000 },
         items: 3
     },
     desktop: {
-        breakpoint: { max: 2500, min: 1024 },
+        breakpoint: { max: 2000, min: 1024 },
         items: 3
     },
     tablet: {
@@ -42,19 +42,21 @@ export default function Newsroom() {
     return (
         <section id='newsroom' className="p-5 overflow-hidden" style={{ backgroundColor: '#F7FCFC' }}>
             <div className="container mt-5 mb-5">
-                <div className="row" >
-                    <div className="z-1 mb-n15">
+                <div className="row" style={{ backgroundColor: '#F7FCFC' }}>
+                    <div className="z-1 mb-n15 w-100" >
                         <p className='fs-60'>our<br /> <span style={{ color: '#1ED0BD' }}>newsroom</span></p>
                     </div>
-                    <div className="position-relative offset-4">
+                    <div className="offset-5 mt-9">
                         <Carousel
+                            className='m-n9'
                             responsive={responsive}
                             arrows={false} centerMode={false}
                             renderButtonGroupOutside={true}
                             customButtonGroup={<CustomButtonGroup />}
                             infinite={true} draggable={false}
+                            partialVisible={true}
                             // autoPlay={true}
-                            >
+                        >
                             <div className="card m-3 p-1 bg-transparent border-0">
                                 <img src="/card 1.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -79,8 +81,8 @@ export default function Newsroom() {
                         </Carousel>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center mt-5" >
-                    <button type="button" className="btn btn-light rounded-pill" style={{ background: '#1ED0BD', color: '#ffffff' }}>All News</button>
+                <div className="d-flex justify-content-center mt-9" >
+                    <button type="button" className="btn btn-primary text-light rounded-pill" >All News</button>
                 </div>
             </div>
         </section>

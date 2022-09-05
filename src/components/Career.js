@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Career() {
   return (
     <section id="career" className="p-5 overflow-hidden" style={{ backgroundColor: "#F7FCFC" }}>
@@ -100,7 +98,7 @@ export default function Career() {
           <div className="d-flex justify-content-center ">
             <button
               type="button"
-              className=" btn btn-light rounded-pill text-white m-5"
+              className=" btn btn-primary text-light rounded-pill m-5"
             >
               View all Jobs
             </button>

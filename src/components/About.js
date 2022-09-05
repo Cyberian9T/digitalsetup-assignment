@@ -1,19 +1,16 @@
-
 export default function About() {
   return (
     <section id="about" className="overflow-hidden">
       <div className="container">
-        <div className="row posionit-relative">
+        <div className="row posionit-relative mt-5">
           <div className="col-3 mb-n10">
             <p className="position-relative text-primary fs-160 z-1">
               CONNECT
               <br /> TECHNOLOGY
             </p>
           </div>
-          <div className="col-9 offset-3">
-            <div className="position-relative">
-              <img src="/banner.png" alt="banner"/>
-            </div>
+          <div className="col-9 offset-3 mt-2">
+            <img src="/banner.png" alt="banner" />
           </div>
         </div>
 

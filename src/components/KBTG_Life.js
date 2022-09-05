@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -24,7 +23,7 @@ const responsive = {
 
 const CustomButtonGroup = ({ next, previous, }) => {
     return (
-        <div className="position-relative top-15 start-0">
+        <div className="offset-7 mt-5">
             <button type="button" className="bg-transparent border-0" onClick={() => previous()}>
                 <svg width="30" height="16" viewBox="0 0 30 16" fill="none">
                     <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM30 7L1 7V9L30 9V7Z" fill="#61706F"></path>
@@ -45,31 +44,47 @@ const CustomButtonGroup = ({ next, previous, }) => {
 
 export default function KBTG_Life() {
     return (
-        <section id='kbtg-life' className="p-5 overflow-hidden">
-            <div className="container mt-5 mb-5">
+        <section id='kbtg-life' className="overflow-hidden" >
+            <div className="container-fluid mt-5 mb-5">
                 <div className="row">
-                    <div className='col-6'>
-                        <img className='position-relative bottom-0 end-20 ' style={{height:"80%"}} src="/Mask group.png" />
-                    </div>
-                    <div className='col-4'>
-                        <div className="">
-                            <p className='fs-60'><span className="text-primary">DSU</span> LIFE</p>
-                        </div>
-                        <Carousel className="h-50" responsive={responsive} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<CustomButtonGroup />} infinite={true}>
-                            <div className="mt-1">
-                                <div>
-                                    <p className='fs-20'>
-                                        &quot;Our innovativeness will transform us into  a prominent leader of the digital disruption age.&quot;
-                                    </p>
-                                </div>
-                                <div>
-                                    <p className='fs-14'><span className="text-primary"> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
-                                </div>
-                            </div>
-                        </Carousel>
+                    <div className='col-6 offset-7 mb-n10 pt-5 z-1'>
+                        <p className='fs-60'><span className="text-primary">DSU</span> LIFE</p>
                     </div>
                 </div>
-            </div >
+                <Carousel
+                    className='m-n3'
+                    responsive={responsive} arrows={false}
+                    renderButtonGroupOutside={true}
+                    infinite={true} 
+                    draggable={false}
+                    customButtonGroup={<CustomButtonGroup />}>
+                    <div className="row">
+                        <img className='col-6' src="/Mask group.png" />
+                        <div className='col-4 offset-1'>
+                            <div className="position-relative top-50 start-0 translate-middle-y">
+                                <p className='fs-20'>
+                                    &quot;Our innovativeness will transform us into a
+                                    prominent leader of the digital disruption age.&quot;
+                                </p>
+                                <p className='fs-14'><span className="text-primary"> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <img className='col-6' src="/Mask group.png" />
+                        <div className='col-3 offset-1'>
+                            <div className="position-relative top-50 start-0 translate-middle-y">
+                                <p className='fs-20'>
+                                    &quot; Test &quot;
+                                </p>
+                                <p className='fs-14'><span className="text-primary"> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </Carousel>
+            </div>
         </section >
     );
 }

@@ -52,7 +52,9 @@ export default function Newsroom() {
                             arrows={false} centerMode={false}
                             renderButtonGroupOutside={true}
                             customButtonGroup={<CustomButtonGroup />}
-                            infinite={true}>
+                            infinite={true} draggable={false}
+                            // autoPlay={true}
+                            >
                             <div className="card m-3 p-1 bg-transparent border-0">
                                 <img src="/card 1.png" className="card-img-top" alt="..." />
                                 <div className="card-body">

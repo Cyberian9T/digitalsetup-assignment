@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section id="about" className="overflow-hidden">
+    <section id="about" className="overflow-hidden py-8">
       <div className="container">
-        <div className="row posionit-relative mt-5">
+        <div className="row posionit-relative">
           <div className="col-3 mb-n10">
             <p className="position-relative text-primary fs-160 z-1">
               CONNECT
@@ -14,14 +14,14 @@ export default function About() {
           </div>
         </div>
 
-        <div className="row posionit-relative mb-5 mt-5">
-          <div className="col-3 d-flex">
+        <div className="row posionit-relative my-5 ">
+          <div className="col-3 d-flex my-7">
             <img src="/art_01.png" alt="art" />
           </div>
 
-          <div className="col-9">
-            <p className="fs-60">connect for the better</p>
-            <p className="fs-18">
+          <div className="col-9 ">
+            <p className="fs-60 my-6">connect for the better</p>
+            <p className="fs-18 my-7">
               At DSU, we never cease to develop and innovate financial
               technologies on top of our &quot;Customer First&quot; mindset, We
               are the driving force behind KBank&apos;s success as well as their
@@ -33,7 +33,7 @@ export default function About() {
               outside-the-box thinking, KBTG aims to transform into the best
               tech organization of Southeast Asia.
             </p>
-            <button className="btn rounded-pill text-primary">
+            <button className="btn btn-outline-primary rounded-pill border-0 shadow px-5 rounded">
               More stories
             </button>
           </div>

@@ -40,11 +40,11 @@ const CustomButtonGroup = ({ next, previous, }) => {
 
 export default function Newsroom() {
     return (
-        <section id='newsroom' className="p-5 overflow-hidden" style={{ backgroundColor: '#F7FCFC' }}>
+        <section id='newsroom' className="py-8 overflow-hidden bg-light3" >
             <div className="container mt-5 mb-5">
-                <div className="row" style={{ backgroundColor: '#F7FCFC' }}>
+                <div className="row" >
                     <div className="z-1 mb-n15 w-100" >
-                        <p className='fs-60'>our<br /> <span style={{ color: '#1ED0BD' }}>newsroom</span></p>
+                        <p className='fs-60'>our<br /> <span className="text-primary">newsroom</span></p>
                     </div>
                     <div className="offset-5 mt-9">
                         <Carousel

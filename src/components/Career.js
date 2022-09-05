@@ -1,14 +1,14 @@
 export default function Career() {
   return (
-    <section id="career" className="p-5 overflow-hidden" style={{ backgroundColor: "#F7FCFC" }}>
+    <section id="career" className="py-8 overflow-hidden bg-light3">
       <div className="container">
         <div className="mt-5">
           <h1>
             <span className="text-primary">jobs</span> st DSU
           </h1>
-          <div className="row mb-4">
-            <div className="col m-2 ">
-              <div className="cardshadow h-100 border-0">
+          <div className="row g-3 mb-4">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Business Analyst</p>
                   <p className="card-subtitle fs-14">
@@ -22,8 +22,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col m-2">
-              <div className="cardshadow h-100 border-0">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Data Engineer</p>
                   <p className="card-subtitle fs-14">
@@ -37,8 +37,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col m-2">
-              <div className="cardshadow h-100 border-0">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [KBTGVN] Function Lead/ Sr. Business Analyst
@@ -51,14 +51,12 @@ export default function Career() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row mb-4">
-            <div className="col m-2">
-              <div className="cardshadow h-100 border-0">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">[KBTGVN] Software Engineer</p>
                   <p className="card-subtitle fs-14">HCMC, Vietnam</p>
-                  <p className="card-text fs-16" style={{ color: "#61706F" }}>
+                  <p className="card-text fs-16 text-dark" >
                     At KBTG, we build our own platforms as well as service
                     external well-known clients like PTTOR, Facebook, LINE MAN,
                     GRAB, and many more with modernized ...
@@ -66,8 +64,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col m-2">
-              <div className="cardshadow h-100 border-0">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Backend
@@ -80,8 +78,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col m-2">
-              <div className="cardshadow h-100 border-0">
+            <div className="col-md-4 shadow rounded-3">
+              <div className="card h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Frontend

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="sticky-top py-2 px-4 overflow-hidden bg-white">
+    <header className="sticky-top py-2 px-4 bg-white">
       <div className="row justify-content-center align-items-center">
         <div className="col-2">
           <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
@@ -22,14 +22,12 @@ export default function Header() {
           })}
         </ul>
         <div className="col-2 z-3">
-          <div className="dropdown d-flex flex-row-reverse">
+          <div className="dropdown d-flex flex-row-reverse ">
             <button
-              className="btn btn-primary text-light dropdown-toggle rounded-pill"
-              type="button"
+              className="btn btn-primary text-light dropdown-toggle rounded-pill px-4 py-1"
               data-bs-toggle="dropdown"
               id="dropdownMenu"
-              aria-expanded="false"
-            >
+              aria-expanded="false">
               En
             </button>
             <div className="dropdown-menu">

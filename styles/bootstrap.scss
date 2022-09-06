@@ -176,3 +176,7 @@ $utilities: map-merge($utilities,
 // Utilities
 @import "bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
+
+.btn-outline-primary:hover {
+  color: $light;
+}

@@ -6,13 +6,13 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer>
-            <section id="contact" className="py-8 overflow-hidden">
+            <section id="contact" className="pt-8 overflow-hidden">
                 <div className="container">
-                    <div className='row'>
-                        <div className='col'>
+                    <div className='row g-4'>
+                        <div className='col-md-3'>
                             <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />
                         </div>
-                        <div className='col'>
+                        <div className='col-md-3'>
                             <div className="row row-cols-2" >
                                 {navLinks.map((link, index) => {
                                     return (
@@ -25,7 +25,7 @@ export default function Footer() {
                                 })}
                             </div>
                         </div>
-                        <div className='col'>
+                        <div className='col-md-3'>
                             <p>Follow Us</p>
                             <div>
                                 <button type="button" className="shadow btn btn-light rounded-circle">
@@ -42,13 +42,13 @@ export default function Footer() {
                                 </button>
                             </div>
                         </div>
-                        <div className='col'>
+                        <div className='col-md-3'>
                             <p>Ready to Join Us?</p>
-                            <button type="button" className="btn btn-light rounded-pill bg-primary text-white">Join Us</button>
+                            <button type="button" className="btn btn-light rounded-pill bg-primary text-white px-5">Join Us</button>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center m-5">
-                        <p>© 2022, KASIKORN Business-Technology Group (KBTG) All rights reserved.</p>
+                    <div className="text-center mt-8">
+                        <p className="fs-12">© 2022, KASIKORN Business-Technology Group (KBTG) All rights reserved.</p>
                     </div>
                 </div>
             </section>

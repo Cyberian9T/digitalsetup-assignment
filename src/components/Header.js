@@ -3,9 +3,22 @@ import Image from "next/image";
 import { navLinks } from "../data";
 import Link from "next/link";
 
+if (typeof window !== 'undefined') {
+  let prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("header").style.top = "0";
+    } else {
+      document.getElementById("header").style.top = "-200px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+}
+
 export default function Header() {
   return (
-    <header className="sticky-top py-2 px-4 bg-white">
+    <header id="header" className="sticky-top py-2 px-4 bg-white">
       <div className="row justify-content-center align-items-center">
         <div className="col-2">
           <Image src="/Layer_1.png" alt="Logo" width={147} height={53} />

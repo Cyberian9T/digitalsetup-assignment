@@ -113,7 +113,7 @@ export default function Projects() {
                 <div className="d-flex justify-content-center mt-5">
                     <button
                         type="button"
-                        className="btn btn-primary text-light rounded-pill px-4"
+                        className="btn btn-primary text-light rounded-pill px-5"
                     >
                         All Project
                     </button>

@@ -9,7 +9,7 @@ export default function Projects() {
 
                 <div className="row g-2 g-md-5">
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Sansiri.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Sansiri</p>
@@ -26,7 +26,7 @@ export default function Projects() {
                     </div>
 
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Bentagro.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Bentagro</p>
@@ -43,7 +43,7 @@ export default function Projects() {
                     </div>
 
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Mercedes Benz.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Mercedes Benz</p>
@@ -60,7 +60,7 @@ export default function Projects() {
                     </div>
 
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Mercedes Benz.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Mercedes Benz</p>
@@ -77,7 +77,7 @@ export default function Projects() {
                     </div>
 
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Sansiri.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Sansiri</p>
@@ -94,7 +94,7 @@ export default function Projects() {
                     </div>
 
                     <div className="col-6 col-md-4">
-                        <div class="card border-0 card-hover">
+                        <div className="card border-0 card-hover">
                             <img src="/Bentagro.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Bentagro</p>

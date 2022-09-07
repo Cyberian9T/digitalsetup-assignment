@@ -23,7 +23,7 @@ const responsive = {
 
 const CustomButtonGroup = ({ next, previous, }) => {
     return (
-        <div className="position-relative bottom-0 end-20 z-1">
+        <div className="position-relative bottom-0 end-50 z-1">
             <button className="bg-transparent border-0" onClick={() => previous()}>
                 <svg width="60" height="30" viewBox="0 0 30 16">
                     <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM30 7L1 7V9L30 9V7Z" ></path>
@@ -38,19 +38,26 @@ const CustomButtonGroup = ({ next, previous, }) => {
     );
 };
 
+
+const screen_size = () => {
+    if ('undefined' != typeof screen) {
+        return window.screen.width <= 1024 ? true : false
+    };
+};
+
+
 export default function Newsroom() {
     return (
         <section id='newsroom' className="py-8 overflow-hidden bg-light3" >
-            <div className="container mt-5 mb-5">
+            <div className="container my-5">
                 <div className="row" >
-                    <div className="z-1 mb-n15 w-100" >
+                    <div className="col-md-4 z-1" >
                         <p className='fs-60'>our<br /> <span className="text-primary">newsroom</span></p>
                     </div>
-                    <div className="offset-5 mt-9">
-                        <Carousel
-                            className='m-n9'
+                    <div className="col-md-8">
+                        <Carousel className="carousel"
                             responsive={responsive}
-                            arrows={false} centerMode={false}
+                            arrows={screen_size()} centerMode={false}
                             renderButtonGroupOutside={true}
                             customButtonGroup={<CustomButtonGroup />}
                             infinite={true} draggable={false}

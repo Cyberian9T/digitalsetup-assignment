@@ -14,7 +14,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="row posionit-relative my-5 ">
+        <div className="row my-5 ">
           <div className="col-3 d-flex my-7">
             <img src="/art_01.png" alt="art" />
           </div>

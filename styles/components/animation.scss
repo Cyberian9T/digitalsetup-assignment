@@ -2,6 +2,15 @@
   box-shadow: 15px 15px 20px rgba(57, 124, 116, 0.08), -15px -15px 20px rgba(255, 255, 255, 0.7);
   transition: all .2s ease-out;
 }
+.carousel{
+  width: 150%;
+}
 #header{
-  transition: top 2s;
+  transition: top 1.5s;
+}
+
+@media only screen and (max-width: 464px) {
+  .carousel{
+    width: 100%;
+  }
 }

@@ -45,9 +45,10 @@ const CustomButtonGroup = ({ next, previous, }) => {
 export default function KBTG_Life() {
     return (
         <section id='kbtg-life' className="py-8 overflow-hidden" >
-            <div className="container-fluid mt-5 mb-5">
+            <div className="container-fluid my-5">
                 <div className="row">
-                    <div className='col-6 offset-7 mb-n10 pt-5 z-1'>
+                    <div className='col-md-7 mb-n10 pt-5 z-1'> </div>
+                    <div className='col-md-5 mb-n10 pt-5 z-1'>
                         <p className='fs-60'><span className="text-primary">DSU</span> LIFE</p>
                     </div>
                 </div>
@@ -64,7 +65,7 @@ export default function KBTG_Life() {
                         </div>
 
                         <div className='col-md-4 offset-1'>
-                            <div className="position-relative top-50 start-0 translate-middle-y">
+                            <div className="position-relative top-50 start-0 translate-middle-y w-75">
                                 <p className='fs-20'>
                                     &quot;Our innovativeness will transform us into a
                                     prominent leader of the digital disruption age.&quot;
@@ -79,7 +80,7 @@ export default function KBTG_Life() {
                             <img className='w-100' src="/Mask group.png" />
                         </div>
                         <div className='col-md-3 offset-1'>
-                            <div className="position-relative top-50 start-0 translate-middle-y">
+                            <div className="position-relative top-50 start-0 translate-middle-y w-75">
                                 <p className='fs-20'>
                                     &quot; Test &quot;
                                 </p>

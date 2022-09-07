@@ -5,6 +5,13 @@
 .carousel{
   width: 150%;
 }
+.flip-img {
+  transform: rotateY(180deg);
+}
+.life{
+  margin-bottom: -10rem;
+}
+
 #header{
   transition: top 1.5s;
 }
@@ -12,5 +19,12 @@
 @media only screen and (max-width: 464px) {
   .carousel{
     width: 100%;
+  }
+  .hero {
+    font-size: 3.25rem !important;
+    margin-bottom: 7rem;
+    }
+  .life{
+    margin-bottom: 2rem;
   }
 }

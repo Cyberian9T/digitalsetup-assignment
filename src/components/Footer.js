@@ -29,16 +29,16 @@ export default function Footer() {
                             <p>Follow Us</p>
                             <div>
                                 <button type="button" className="shadow btn btn-light rounded-circle">
-                                    <Image src="/facebook.png" alt="Logo" width={15} height={15} />
+                                    <img src="/facebook.svg" alt="Logo" width={15} height={15} />
                                 </button>
                                 <button type="button" className="shadow btn btn-light rounded-circle">
-                                    <Image src="/twitter.png" alt="Logo" width={15} height={15} />
+                                    <img src="/twitter.svg" alt="Logo" width={15} height={15} />
                                 </button>
                                 <button type="button" className="shadow btn btn-light rounded-circle">
-                                    <Image src="/linkedin.png" alt="Logo" width={15} height={15} />
+                                    <img src="/linkedin.svg" alt="Logo" width={15} height={15} />
                                 </button>
                                 <button type="button" className="shadow btn btn-light rounded-circle">
-                                    <Image src="/youtube.png" alt="Logo" width={15} height={15} />
+                                    <img src="/youtube.svg" alt="Logo" width={15} height={15} />
                                 </button>
                             </div>
                         </div>

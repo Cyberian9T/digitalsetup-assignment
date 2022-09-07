@@ -45,13 +45,15 @@ const CustomButtonGroup = ({ next, previous, }) => {
 export default function KBTG_Life() {
     return (
         <section id='kbtg-life' className="py-8 overflow-hidden" >
-            <div className="container-fluid my-5">
-                <div className="row">
-                    <div className='col-md-7 mb-n10 pt-5 z-1'> </div>
-                    <div className='col-md-5 mb-n10 pt-5 z-1'>
+            <div className="container">
+                <div className="row life">
+                    <div className='col-md-7 pt-5 z-1'> </div>
+                    <div className='col-md-5 pt-5 z-1'>
                         <p className='fs-60'><span className="text-primary">DSU</span> LIFE</p>
                     </div>
                 </div>
+            </div>
+            <div className="container-fluid">
                 <Carousel
                     className='m-n3'
                     responsive={responsive} arrows={false}

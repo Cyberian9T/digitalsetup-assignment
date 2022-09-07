@@ -7,8 +7,8 @@ export default function Career() {
             <span className="text-primary">jobs</span> st DSU
           </h1>
           <div className="row g-3 mb-4">
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Business Analyst</p>
                   <p className="card-subtitle fs-14">
@@ -22,8 +22,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Data Engineer</p>
                   <p className="card-subtitle fs-14">
@@ -37,8 +37,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [KBTGVN] Function Lead/ Sr. Business Analyst
@@ -51,8 +51,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">[KBTGVN] Software Engineer</p>
                   <p className="card-subtitle fs-14">HCMC, Vietnam</p>
@@ -64,8 +64,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Backend
@@ -78,8 +78,8 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 shadow rounded-3">
-              <div className="card h-100 bg-light3 border-0">
+            <div className="col-md-4">
+              <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Frontend

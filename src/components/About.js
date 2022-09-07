@@ -1,26 +1,66 @@
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 2000 },
+    items: 1
+  },
+  desktop: {
+    breakpoint: { max: 2000, min: 1024 },
+    items: 1
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
+
 export default function About() {
   return (
     <section id="about" className="overflow-hidden py-8">
       <div className="container">
-        <div className="row posionit-relative">
-          <div className="col-3 mb-n10">
-            <p className="position-relative text-primary fs-160 z-1">
-              CONNECT
-              <br /> TECHNOLOGY
-            </p>
-          </div>
-          <div className="col-9 offset-3 mt-2">
-            <img src="/banner.png" alt="banner" />
-          </div>
+        <div className="position-relative z-1 mb-n9">
+          <h1 className="text-primary fs-150 lh-1 hero">
+            CONNECT TECHNOLOGY
+          </h1>
         </div>
+        <div className="offset-3 w-100">
+          <Carousel
+            className='w-100 carousel'
+            responsive={responsive} arrows={false}
+            renderButtonGroupOutside={true}
+            infinite={true} showDots={true}
+            autoPlay={true} autoPlaySpeed={5000}
+            draggable={true}
+            customTransition="transform 800ms ease-in-out">
 
+            <div className=''>
+              <img className="img-fluid w-100" src="/banner.png" alt="banner" />
+            </div>
+
+            <div className=''>
+              <img className='img-fluid flip-img w-100' src="/banner.png" alt="banner" />
+            </div>
+
+          </Carousel>
+
+
+        </div>
+      </div>
+      <div className="container">
         <div className="row my-5 ">
-          <div className="col-3 d-flex my-7">
-            <img src="/art_01.png" alt="art" />
+          <div className="col-3 mt-7">
+            <img className="h-75" src="/art_01.svg" alt="art" />
           </div>
 
-          <div className="col-9 ">
-            <p className="fs-60 my-6">connect for the better</p>
+          <div className="col-9">
+            <p className="fs-60 mt-6">connect for the better</p>
             <p className="fs-18 my-7">
               At DSU, we never cease to develop and innovate financial
               technologies on top of our &quot;Customer First&quot; mindset, We

@@ -1,5 +1,5 @@
 import "../styles/bootstrap.scss";
-import "../styles/components/animation.scss";
+import "../styles/components/style.scss";
 import "../styles/components/svg.scss";
 import "../styles/globals.scss";
 import { useEffect } from "react";

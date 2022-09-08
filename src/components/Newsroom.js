@@ -66,21 +66,21 @@ export default function Newsroom() {
                             // showDots={true}
                         >
                             <div className="card p-1 bg-transparent border-0">
-                                <img src="/card 1.png" className="card-img-top" alt="..." />
+                                <img src="/card 1.png" className="card-img-top rounded-0" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>
                                     <p className="card-text fs-18">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
                             <div className="card p-1 bg-transparent border-0">
-                                <img src="/card 2.png" className="card-img-top" alt="..." />
+                                <img src="/card 2.png" className="card-img-top rounded-0" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>
                                     <p className="card-text fs-18">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
                             <div className="card p-1 bg-transparent border-0">
-                                <img src="/card 3.png" className="card-img-top" alt="..." />
+                                <img src="/card 3.png" className="card-img-top rounded-0" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>
                                     <p className="card-text fs-18">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>

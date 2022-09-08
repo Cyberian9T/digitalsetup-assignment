@@ -8,9 +8,8 @@ if (typeof window !== 'undefined') {
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos <= currentScrollPos && window.screen.width >= 768) {
-      document.getElementById("header").style.top = "-100";
-    }
-    else if (prevScrollpos <= currentScrollPos && count == 0) {
+      document.getElementById("header").style.top = "-100px";
+    }else if (prevScrollpos <= currentScrollPos && (count == 0 && window.screen.width < 768)) {
       document.getElementById("header").style.top = "-100px";
     }
     else {
@@ -18,6 +17,7 @@ if (typeof window !== 'undefined') {
     }
     prevScrollpos = currentScrollPos;
   }
+  
 }
 
 function nav_link_Click() {
@@ -38,6 +38,7 @@ function status_nav() {
       //   window.scrollTo(scrollLeft, scrollTop);
       // };
     }
+    console.log(count)
   }
 }
 

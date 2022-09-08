@@ -63,7 +63,7 @@ export default function KBTG_Life() {
                     customButtonGroup={<CustomButtonGroup />}>
                     <div className="row g-3">
                         <div className='col-md-6'>
-                            <img className='w-100' src="/Mask group.png" />
+                            <img className='w-100' src="/Mask group 1.png" />
                         </div>
 
                         <div className='col-md-4 offset-1'>
@@ -79,14 +79,14 @@ export default function KBTG_Life() {
 
                     <div className="row g-3">
                         <div className='col-md-6'>
-                            <img className='w-100' src="/Mask group.png" />
+                            <img className='w-100' src="/Mask group 2.png" />
                         </div>
                         <div className='col-md-3 offset-1'>
                             <div className="position-relative top-50 start-0 translate-middle-y w-75">
                                 <p className='fs-20'>
                                     &quot; Test &quot;
                                 </p>
-                                <p className='fs-14'><span className="text-primary"> Nattawee Tantisatchatham</span> <br /> Founder Steps Academy</p>
+                                <p className='fs-14'><span className="text-primary"> Test</span> <br /> Test</p>
                             </div>
                         </div>
                     </div>

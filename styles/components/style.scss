@@ -9,22 +9,42 @@
   transform: rotateY(180deg);
 }
 .life{
-  margin-bottom: -10rem;
+  margin-bottom: -9rem;
 }
 
 #header{
   transition: top 1.5s;
 }
-
-@media only screen and (max-width: 464px) {
-  .carousel{
-    width: 100%;
-  }
-  .hero {
-    font-size: 3.25rem !important;
-    margin-bottom: 7rem;
-    }
+@media only screen and (max-width: 	1320px) {
   .life{
-    margin-bottom: 2rem;
+    margin-bottom: -6rem;
+  }
+  @media only screen and (max-width: 1140px) {
+    .hero {
+      font-size: 6rem !important;
+      margin-bottom: 2.5rem;
+      }
+    .carousel{
+      width: 100%;
+    }
+    .life{
+      margin-bottom: -2rem;
+    }
+    .custombutton{
+      display: none;
+    }
+    @media only screen and (max-width: 720px) {
+      .about{
+        margin-left: -10%;
+        width: 120% !important;
+      }    
+      .hero {
+        font-size: 3.25rem !important;
+        margin-bottom: 7rem;
+        }
+      .life{
+        margin-bottom: 2rem;
+      }
+    }
   }
 }

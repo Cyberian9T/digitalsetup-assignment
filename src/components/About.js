@@ -43,9 +43,9 @@ export default function About() {
             CONNECT TECHNOLOGY
           </h1>
         </div>
-        <div className="offset-3 w-100">
+        <div className="offset-3 w-100 about">
           <Carousel
-            className='w-100 carousel'
+            className='w-100'
             responsive={responsive} arrows={false}
             renderButtonGroupOutside={true}
             infinite={true} showDots={true}
@@ -70,6 +70,21 @@ export default function About() {
               <img className='img-fluid flip-img w-100' src="/banner.png" alt="banner" />
             </div>
 
+            <div className=''>
+              <img className="img-fluid w-100" src="/banner.png" alt="banner" />
+            </div>
+
+            <div className=''>
+              <img className='img-fluid flip-img w-100' src="/banner.png" alt="banner" />
+            </div>
+
+            <div className=''>
+              <img className="img-fluid w-100" src="/banner.png" alt="banner" />
+            </div>
+
+            <div className=''>
+              <img className='img-fluid flip-img w-100' src="/banner.png" alt="banner" />
+            </div>
           </Carousel>
 
 

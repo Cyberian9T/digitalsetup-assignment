@@ -36,10 +36,10 @@ export default function Header() {
           </button>
 
           <div className="collapse navbar-collapse w-100" id="navbarNav">
-            <ul className="navbar-nav w-100 justify-content-around">
+            <ul className="navbar-nav w-100 d-flex justify-content-between">
               {navLinks.map((link, index) => {
                 return (
-                  <li key={index} className="nav-item">
+                  <li key={index} className="nav-item ">
                     <a className="nav-link" href={link.path} onClick={() => nav_link_Click()}>{link.name}</a>
                   </li>
                 );

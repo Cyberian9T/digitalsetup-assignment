@@ -8,11 +8,11 @@ const responsive = {
         items: 3
     },
     desktop: {
-        breakpoint: { max: 2000, min: 1024 },
+        breakpoint: { max: 2000, min: 1180 },
         items: 3
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 1180, min: 464 },
         items: 1,
         partialVisibilityGutter: 40
     },
@@ -25,7 +25,7 @@ const responsive = {
 
 const CustomButtonGroup = ({ next, previous, }) => {
     return (
-        <div className="position-relative bottom-0 end-25 z-1">
+        <div className="position-relative bottom-0 end-25 z-1 custombutton">
             <button className="bg-transparent border-0" onClick={() => previous()}>
                 <svg width="30" height="15" viewBox="0 0 30 16">
                     <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM30 7L1 7V9L30 9V7Z" ></path>

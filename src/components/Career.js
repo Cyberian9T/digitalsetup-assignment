@@ -6,8 +6,8 @@ export default function Career() {
           <h1>
             <span className="text-primary">jobs</span> st DSU
           </h1>
-          <div className="row g-3 mb-4">
-            <div className="col-md-4">
+          <div className="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Business Analyst</p>
@@ -22,7 +22,7 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Data Engineer</p>
@@ -37,7 +37,7 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
@@ -51,7 +51,7 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">[KBTGVN] Software Engineer</p>
@@ -64,7 +64,7 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">
@@ -78,7 +78,7 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">

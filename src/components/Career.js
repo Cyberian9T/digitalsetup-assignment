@@ -1,17 +1,17 @@
 export default function Career() {
   return (
-    <section id="career" className="py-8 overflow-hidden bg-light3">
+    <section id="career" className="overflow-hidden bg-light3 py-3 py-md-8">
       <div className="container">
         <div className="mt-5">
           <h1>
             <span className="text-primary">jobs</span> st DSU
           </h1>
-          <div className="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div className="row g-5 row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col">
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Business Analyst</p>
-                  <p className="card-subtitle fs-14">
+                  <p className="card-subtitle fs-14 fw-bold">
                     Muang Thong Thani, Nonthaburi
                   </p>
                   <p className="card-text fs-16">
@@ -26,7 +26,7 @@ export default function Career() {
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">Data Engineer</p>
-                  <p className="card-subtitle fs-14">
+                  <p className="card-subtitle fs-14 fw-bold">
                     Muang Thong Thani, Nonthaburi
                   </p>
                   <p className="card-text fs-16">
@@ -43,7 +43,7 @@ export default function Career() {
                   <p className="card-title text-primary fs-22">
                     [KBTGVN] Function Lead/ Sr. Business Analyst
                   </p>
-                  <p className="card-subtitle fs-14">HCMC, Vietnam</p>
+                  <p className="card-subtitle fs-14 fw-bold">HCMC, Vietnam</p>
                   <p className="card-text fs-16">
                     Functional Lead is the liaison between the business users
                     and technical team....
@@ -55,7 +55,7 @@ export default function Career() {
               <div className="card rounded-3 shadow h-100 bg-light3 border-0">
                 <div className="card-body p-3">
                   <p className="card-title text-primary fs-22">[KBTGVN] Software Engineer</p>
-                  <p className="card-subtitle fs-14">HCMC, Vietnam</p>
+                  <p className="card-subtitle fs-14 fw-bold">HCMC, Vietnam</p>
                   <p className="card-text fs-16 text-dark" >
                     At KBTG, we build our own platforms as well as service
                     external well-known clients like PTTOR, Facebook, LINE MAN,
@@ -70,7 +70,7 @@ export default function Career() {
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Backend
                   </p>
-                  <p className="card-subtitle fs-14">Samyan, Bangkok</p>
+                  <p className="card-subtitle fs-14 fw-bold">Samyan, Bangkok</p>
                   <p className="card-text fs-16 text-dark">
                     We&apos;re looking for a passionate, self-motivated, team
                     player Backend ....
@@ -84,7 +84,7 @@ export default function Career() {
                   <p className="card-title text-primary fs-22">
                     [Samyan] KX - Software Engineer, Frontend
                   </p>
-                  <p className="card-subtitle fs-14">Samyan, Bangkok</p>
+                  <p className="card-subtitle fs-14 fw-bold">Samyan, Bangkok</p>
                   <p className="card-text fs-16 text-dark">
                     We&apos;re looking for a passionate, self-motivated, team
                     player Frontend ....

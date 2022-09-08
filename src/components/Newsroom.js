@@ -49,7 +49,7 @@ const CustomButtonGroup = ({ next, previous, }) => {
 
 export default function Newsroom() {
     return (
-        <section id='newsroom' className="py-8 overflow-hidden bg-light3" >
+        <section id='newsroom' className="overflow-hidden bg-light3 py-3 py-md-8" >
             <div className="container my-5">
                 <div className="row" >
                     <div className="col-md-4 z-1" >
@@ -62,23 +62,24 @@ export default function Newsroom() {
                             renderButtonGroupOutside={true}
                             customButtonGroup={<CustomButtonGroup />}
                             infinite={true} draggable={false}
-                            partialVisible={true} showDots={true}
+                            partialVisible={true} 
+                            // showDots={true}
                         >
-                            <div className="card m-3 p-1 bg-transparent border-0">
+                            <div className="card p-1 bg-transparent border-0">
                                 <img src="/card 1.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>
                                     <p className="card-text fs-18">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
-                            <div className="card m-3 p-1 bg-transparent border-0">
+                            <div className="card p-1 bg-transparent border-0">
                                 <img src="/card 2.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>
                                     <p className="card-text fs-18">At KBTG, we never cease to develop and innovate financial technologies on top of our “Customer First” .</p>
                                 </div>
                             </div>
-                            <div className="card m-3 p-1 bg-transparent border-0">
+                            <div className="card p-1 bg-transparent border-0">
                                 <img src="/card 3.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-title fw-bold fs-24">we never cease to develop and innovate financialtechnologies on top.</p>

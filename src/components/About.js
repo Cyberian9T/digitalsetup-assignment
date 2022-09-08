@@ -36,7 +36,7 @@ const CustomDot = ({ onMove, index, onClick, active }) => {
 
 export default function About() {
   return (
-    <section id="about" className="overflow-hidden py-8">
+    <section id="about" className="overflow-hidden py-3 py-md-8">
       <div className="container">
         <div className="position-relative z-1 mb-n9">
           <h1 className="text-primary fs-150 lh-1 hero">

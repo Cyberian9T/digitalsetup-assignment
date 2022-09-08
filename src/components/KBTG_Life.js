@@ -44,7 +44,7 @@ const CustomButtonGroup = ({ next, previous, }) => {
 
 export default function KBTG_Life() {
     return (
-        <section id='kbtg-life' className="py-8 overflow-hidden" >
+        <section id='kbtg-life' className="overflow-hidden py-3 py-md-8" >
             <div className="container">
                 <div className="row life">
                     <div className='col-md-7 pt-5 z-1'> </div>

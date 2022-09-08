@@ -1,13 +1,13 @@
 export default function Projects() {
     return (
-        <section id="projects" className="py-8 overflow-hidden">
+        <section id="projects" className="overflow-hidden py-3 py-md-8">
             <div className="container">
 
                 <h2 className="text-center fs-60 mb-6">
                     our <span className="text-primary">projects</span>
                 </h2>
 
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div className="row g-5 gy-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
                     <div className="col">
                         <div className="card border-0 card-hover">
                             <img src="/Sansiri.png" className="card-img-top" alt="..." />

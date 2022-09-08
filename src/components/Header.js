@@ -46,11 +46,11 @@ function status_nav() {
 
 export default function Header() {
   return (
-    <header id="header" className="container-fluid sticky-top px-4 py-n1 bg-white ">
-      <nav className="navbar navbar-expand-md justify-content-center">
+    <header id="header" className="container-fluid sticky-top px-4 bg-white">
+      <nav className="navbar navbar-expand-md justify-content-center py-1 py-md-3">
         <div className="container-fluid">
           <div className="navbar-brand d-flex w-50 me-auto">
-            <img className='' src="/Layer_1.png" alt="Logo" width="147" height="53" />
+            <img className='' src="/Layer_1.png" alt="Logo" width="100" />
           </div>
           <button id="navbar-header" className="navbar-toggler" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarNav"

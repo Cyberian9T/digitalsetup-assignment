@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer>
-            <section id="contact" className="pt-8 overflow-hidden">
+            <section id="contact" className="overflow-hidden pt-3 pt-md-8">
                 <div className="container">
                     <div className='row g-4'>
                         <div className='col-md-3'>

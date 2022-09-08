@@ -1,24 +1,47 @@
 import React from "react";
 import { navLinks } from "../data";
 
+let count = 0
+
 if (typeof window !== 'undefined') {
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
-    if (window.screen.width > 1024) {
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("header").style.top = "0";
-      } else {
-        document.getElementById("header").style.top = "-100px";
-      }
+    if (prevScrollpos <= currentScrollPos && window.screen.width >= 768) {
+      document.getElementById("header").style.top = "-100";
+    }
+    else if (prevScrollpos <= currentScrollPos && count == 0) {
+      document.getElementById("header").style.top = "-100px";
+    }
+    else {
+      document.getElementById("header").style.top = "0px";
     }
     prevScrollpos = currentScrollPos;
   }
 }
 
 function nav_link_Click() {
-  document.getElementById("navbarNav").className="navbar-collapse w-100 collapse";
+  document.getElementById("navbarNav").className = "navbar-collapse w-100 collapse";
+  count = 0
 }
+
+function status_nav() {
+  if (typeof window !== 'undefined') {
+    if (count == 1) {
+      count = 0
+      // window.onscroll = function () { };
+    } else {
+      count = 1
+      // let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      // let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      // window.onscroll = function () {
+      //   window.scrollTo(scrollLeft, scrollTop);
+      // };
+    }
+  }
+}
+
+
 
 export default function Header() {
   return (
@@ -31,7 +54,7 @@ export default function Header() {
           <button id="navbar-header" className="navbar-toggler" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation" onClick={() => status_nav()}>
             <span className="navbar-toggler-icon"></span>
           </button>
 

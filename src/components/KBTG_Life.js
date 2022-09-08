@@ -58,7 +58,7 @@ export default function KBTG_Life() {
                     className='m-n3'
                     responsive={responsive} arrows={false}
                     renderButtonGroupOutside={true}
-                    infinite={true}
+                    infinite={true} customTransition="" transitionDuration={300}
                     draggable={false}
                     customButtonGroup={<CustomButtonGroup />}>
                     <div className="row g-3">

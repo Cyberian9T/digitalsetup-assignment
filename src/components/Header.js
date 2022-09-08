@@ -16,6 +16,10 @@ if (typeof window !== 'undefined') {
   }
 }
 
+function nav_link_Click() {
+  document.getElementById("navbarNav").className="navbar-collapse w-100 collapse";
+}
+
 export default function Header() {
   return (
     <header id="header" className="container-fluid sticky-top px-4 py-n1 bg-white ">
@@ -36,7 +40,7 @@ export default function Header() {
               {navLinks.map((link, index) => {
                 return (
                   <li key={index} className="nav-item">
-                    <a className="nav-link" href={link.path}>{link.name}</a>
+                    <a className="nav-link" href={link.path} onClick={() => nav_link_Click()}>{link.name}</a>
                   </li>
                 );
               })}

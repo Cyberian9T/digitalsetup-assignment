@@ -13,11 +13,13 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 1
+        items: 1,
+        partialVisibilityGutter: 40
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
-        items: 1
+        items: 1,
+        partialVisibilityGutter: 40
     }
 };
 
@@ -38,12 +40,11 @@ const CustomButtonGroup = ({ next, previous, }) => {
     );
 };
 
-
-const screen_size = () => {
-    if ('undefined' != typeof screen) {
-        return window.screen.width <= 1024 ? true : false
-    };
-};
+// const screen_size = () => {
+//     if ('undefined' != typeof screen) {
+//         return window.screen.width <= 1024 ? true : false
+//     };
+// };
 
 
 export default function Newsroom() {
@@ -57,11 +58,11 @@ export default function Newsroom() {
                     <div className="col-md-8">
                         <Carousel className="carousel"
                             responsive={responsive}
-                            arrows={screen_size()} centerMode={false}
+                            arrows={false} centerMode={false}
                             renderButtonGroupOutside={true}
                             customButtonGroup={<CustomButtonGroup />}
                             infinite={true} draggable={false}
-                            partialVisible={true}
+                            partialVisible={true} showDots={true}
                         >
                             <div className="card m-3 p-1 bg-transparent border-0">
                                 <img src="/card 1.png" className="card-img-top" alt="..." />

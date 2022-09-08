@@ -21,6 +21,19 @@ const responsive = {
   }
 };
 
+const CustomDot = ({ onMove, index, onClick, active }) => {
+  // onMove means if dragging or swiping in progress.
+  // active is provided by this lib for checking if the item is active or not.
+  return (
+    <li className={active ? "active" : "inactive"} onClick={() => onClick()}>
+      <a className="bg-transparent border-0 mx-1">
+        {active ? <img className="" src="/active.svg" alt="banner" />
+          : <img className="" src="/inactive.svg" alt="banner" />}
+      </a>
+    </li>
+  );
+};
+
 export default function About() {
   return (
     <section id="about" className="overflow-hidden py-8">
@@ -36,9 +49,18 @@ export default function About() {
             responsive={responsive} arrows={false}
             renderButtonGroupOutside={true}
             infinite={true} showDots={true}
-            autoPlay={true} autoPlaySpeed={5000}
-            draggable={true}
+            autoPlay={true} autoPlaySpeed={2000}
+            draggable={true} customDot={<CustomDot />}
+            dotListClass="mb-3 justify-content-end end-25"
             customTransition="transform 800ms ease-in-out">
+
+            <div className=''>
+              <img className="img-fluid w-100" src="/banner.png" alt="banner" />
+            </div>
+
+            <div className=''>
+              <img className='img-fluid flip-img w-100' src="/banner.png" alt="banner" />
+            </div>
 
             <div className=''>
               <img className="img-fluid w-100" src="/banner.png" alt="banner" />

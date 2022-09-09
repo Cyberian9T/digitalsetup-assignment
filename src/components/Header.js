@@ -9,15 +9,14 @@ if (typeof window !== 'undefined') {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos <= currentScrollPos && window.screen.width >= 768) {
       document.getElementById("header").style.top = "-100px";
-    }else if (prevScrollpos <= currentScrollPos && (count == 0 && window.screen.width < 768)) {
+    } else if (prevScrollpos <= currentScrollPos && (count == 0 && window.screen.width < 768)) {
       document.getElementById("header").style.top = "-100px";
-    }
-    else {
+    } else {
       document.getElementById("header").style.top = "0px";
     }
     prevScrollpos = currentScrollPos;
   }
-  
+
 }
 
 function nav_link_Click() {
@@ -29,16 +28,9 @@ function status_nav() {
   if (typeof window !== 'undefined') {
     if (count == 1) {
       count = 0
-      // window.onscroll = function () { };
     } else {
       count = 1
-      // let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      // let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-      // window.onscroll = function () {
-      //   window.scrollTo(scrollLeft, scrollTop);
-      // };
     }
-    console.log(count)
   }
 }
 

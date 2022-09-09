@@ -61,6 +61,23 @@ export default function Projects() {
 
                     <div className="col">
                         <div className="card border-0 card-hover">
+                            <img src="/Bentagro.png" className="card-img-top" alt="..." />
+                            <div className="card-body p-3">
+                                <p className="card-title fs-26">Bentagro</p>
+                                <p className="card-subtitle fs-14 mb-2 text-primary">
+                                    Digital Token for Everyone
+                                </p>
+                                <p className="card-text fs-14">
+                                    Kubix is established by KASIKORN X, a company under KBTG, to
+                                    operate as an Initial Coin Offering (ICO) portal. Broadening
+                                    the horizon beyond....
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card border-0 card-hover">
                             <img src="/Mercedes Benz.png" className="card-img-top" alt="..." />
                             <div className="card-body p-3">
                                 <p className="card-title fs-26">Mercedes Benz</p>
@@ -93,22 +110,6 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="col">
-                        <div className="card border-0 card-hover">
-                            <img src="/Bentagro.png" className="card-img-top" alt="..." />
-                            <div className="card-body p-3">
-                                <p className="card-title fs-26">Bentagro</p>
-                                <p className="card-subtitle fs-14 mb-2 text-primary">
-                                    Digital Token for Everyone
-                                </p>
-                                <p className="card-text fs-14">
-                                    Kubix is established by KASIKORN X, a company under KBTG, to
-                                    operate as an Initial Coin Offering (ICO) portal. Broadening
-                                    the horizon beyond....
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div className="d-flex justify-content-center mt-5">
                     <button
